@@ -1,0 +1,39 @@
+.body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+
+}
+h1{
+    background-color: grey;
+    text-align: center;
+    align-items: center;
+    
+    margin-bottom: 50px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+    margin-bottom: 50px;
+    
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: solid black 2px;
+    /* justify-content: center; */
+    text-align: center;
+    align-content: center;
+
+   
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
