@@ -2,7 +2,13 @@
 document.getElementById("btn").addEventListener("click",()=>{
     const naming= document.getElementById("name").value;
     const greeting= document.getElementById("greet");
-    greeting.textContent= "Hello, "+ naming;
+
+    if (naming.trim()=="") {
+        greeting.textContent= "Hello";
+    } else {
+        greeting.textContent= "Hello, "+ naming;
+    }
+    
 })
 
 //change box color
